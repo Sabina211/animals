@@ -40,17 +40,3 @@ insert into Amphibians (Name, Family, Population, Place )
 values (N'огненная саламандра', N'хвостатые земноводные', N'нет данных', 
 N'леса и холмистые местности Европы, Ближнего Востока' )
 
-select * from Amphibians union 
-select * from Birds union 
-select * from "Mammals"  
-
-
-
-
-drop table "Mammals"
-
-select * from Mammals
-
-alter table Animals drop column Сlass
-
-sp_rename "Mammal", "Mammals"
